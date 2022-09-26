@@ -1,5 +1,5 @@
 <script lang="ts">
-  import Counter from "$lib/components/Counter.svelte";
+  // import Counter from "$lib/components/Counter.svelte";
   import ProgrammerSvg from "$lib/components/svg/ProgrammerSvg.svelte";
   import Table from "$lib/components/Table.svelte";
   import ToolsAndLanguages from "$lib/components/ToolsAndLanguages.svelte";
@@ -63,7 +63,10 @@
 <Table
   list={[
     { Description: "TailwindCSS snippets", Website: "https://www.tailwindsnippets.ml/snippets" },
-    { Description: "SVG art", Website: "https://www.vecteezy.com/free-vector/programmer?license-free=true" },
+    {
+      Description: "SVG art",
+      Website: "https://www.vecteezy.com/free-vector/programmer?license-free=true",
+    },
     { Description: "Dev icons", Website: "https://devicon.dev/" },
     { Description: "Animations", Website: "https://animista.net/" },
   ]}
